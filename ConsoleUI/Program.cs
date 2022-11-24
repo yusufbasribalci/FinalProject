@@ -4,7 +4,7 @@ using DataAccess.Concrete.InMemory;
 
 internal class Program
 {
-    private static void Main(string[] args)
+     static void Main(string[] args)
     {
 
         ProductManager productManager = new ProductManager(new EfProductDal());
